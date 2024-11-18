@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #5F9F9D, #3A6F3A); 
+    color: #333;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.header {
+    background: linear-gradient(to right, #0d4c6f, #74b3be); 
+    padding: 20px 0;
+    color: white;
+}
+
+.header .logo {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.header .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #e25b4c;
+}
+
+.hero {
+    padding: 100px 0;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .consult-btn {
+    background: #0d4c6f;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hero .consult-btn:hover {
+    transform: scale(1.1);
+}
+
+.features {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .feature:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.about {
+    padding: 50px 0;
+    background: #e6f7f0;
+}
+
+.about img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.services {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.services .service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 25px;
+    background: linear-gradient(135deg, #6ad1d9, #4aafc3); 
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+.footer {
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .features .feature, .services .service-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+
